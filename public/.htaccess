@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /quality-dashboard-tac/
+
+  # File / folder thật → serve trực tiếp
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Còn lại → index.html (React Router)
+  RewriteRule ^ index.html [L]
+</IfModule>

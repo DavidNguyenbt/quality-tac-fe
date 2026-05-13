@@ -1,0 +1,1 @@
+import '@mui/x-date-pickers/themeAugmentation';
