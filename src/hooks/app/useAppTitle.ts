@@ -35,7 +35,7 @@ export const useAppTitle = () => {
         { keyword: MENU.ROUTES.DASHBOARD_ACC, title: "Acc WH", order: 12 },
         { keyword: MENU.ROUTES.DASHBOARD, title: "Cutting", order: 1 },
         { keyword: MENU.ROUTES.DASHBOARD, title: "Heat Transfer", order: 2 },
-        { keyword: MENU.ROUTES.DASHBOARD, title: "EMB (A1A)", order: 3 },
+        { keyword: MENU.ROUTES.DASHBOARD, title: "Embroidery", order: 3 },
         { keyword: MENU.ROUTES.DASHBOARD, title: "Pad Print", order: 4 },
         { keyword: MENU.ROUTES.DASHBOARD, title: "Bonding", order: 5 },
         { keyword: MENU.ROUTES.DASHBOARD, title: "Innotext Sup", order: 6 },

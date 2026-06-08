@@ -73,7 +73,9 @@
     "thu": "Thu",
     "fri": "Fri",
     "sat": "Sat",
-    "sun": "Sun"
+    "sun": "Sun",
+    "dateRangeLabel": "Start date - End date",
+    "dateRangePlaceholder": "DD/MM/YYYY - DD/MM/YYYY"
   },
   "standard": {
     "titleClose": "Are you sure you want to close?",

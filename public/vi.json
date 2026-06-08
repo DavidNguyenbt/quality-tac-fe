@@ -73,7 +73,9 @@
     "thu": "T5",
     "fri": "T6",
     "sat": "T7",
-    "sun": "CN"
+    "sun": "CN",
+    "dateRangeLabel": "Ngày bắt đầu - Ngày kết thúc",
+    "dateRangePlaceholder": "DD/MM/YYYY - DD/MM/YYYY"
   },
   "standard": {
     "titleClose": "Bạn có chắc chắn muốn đóng?",

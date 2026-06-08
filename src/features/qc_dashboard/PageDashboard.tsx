@@ -36,13 +36,9 @@ const PageDashboard: React.FC = () => {
     const { id } = useParams();
     const parsedId = Number(id);
 
-    const [fac, setFac] = useState<string>('F2');
+    const [fac, setFac] = useState<string>('TC');
     const fact = [
-        { id: 'F1', name: 'Factory 1' },
-        { id: 'F2', name: 'Factory 2' },
-        { id: 'F3', name: 'Factory 3' },
-        { id: 'F4', name: 'Factory 4' },
-        { id: 'All', name: 'Factory All' },
+        { id: 'TC', name: 'TAC' },
     ]
     const facr = fact.filter(item => item.id === fac);
 
@@ -245,11 +241,7 @@ const PageDashboard: React.FC = () => {
                                     value={fac}
                                     onChange={(e) => setFac(e.target.value)}
                                 >
-                                    <MenuItem value={'F1'}>Factory 1</MenuItem>
-                                    <MenuItem value={'F2'}>Factory 2</MenuItem>
-                                    <MenuItem value={'F3'}>Factory 3</MenuItem>
-                                    <MenuItem value={'F4'}>Factory 4</MenuItem>
-                                    <MenuItem value={'All'}>Factory All</MenuItem>
+                                    <MenuItem value={'TC'}>TAC</MenuItem>
                                 </Select>
                             </FormControl>
                         </Grid>

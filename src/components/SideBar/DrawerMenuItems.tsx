@@ -82,7 +82,7 @@ export default function DrawerListMenuItem({ isDrawerOpen, openCollapse, toggleC
         return selectedIndex === item.id;
     };
     const items: DrawerMenuItems[] = [
-        /*{
+        {
             id: 11,
             text: "Fabric WH",
             icon: <DashboardRoundedIcon sx={{ color: selectedIndex === 11 ? "#FFF" : "#989FB0" }} />,
@@ -108,7 +108,7 @@ export default function DrawerListMenuItem({ isDrawerOpen, openCollapse, toggleC
         },
         {
             id: 3,
-            text: "EMB (A1A)",
+            text: "EMBROIDERY",
             icon: <AutoGraphIcon sx={{ color: selectedIndex === 3 ? "#FFF" : "#989FB0" }} />,
             path: MENU.ROUTES.DASHBOARD,
         },
@@ -148,7 +148,7 @@ export default function DrawerListMenuItem({ isDrawerOpen, openCollapse, toggleC
             text: "FINAL",
             icon: <PieChartIcon sx={{ color: selectedIndex === 10 ? "#FFF" : "#989FB0" }} />,
             path: MENU.ROUTES.DASHBOARD,
-        },*/
+        },
         {
             id: 'CTQ',
             text: "CTP, CTQ DEFECT ANALYSIS",
